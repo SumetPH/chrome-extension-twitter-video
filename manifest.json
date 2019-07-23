@@ -1,0 +1,14 @@
+{
+  "name": "Twitter video",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Open video in new tab",
+  "browser_action": {
+    "default_icon": "assets/icon/cover.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["tabs"]
+}
